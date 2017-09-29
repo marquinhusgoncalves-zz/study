@@ -162,3 +162,43 @@ footer#main-footer{
 	border-top:#ccc solid 1px;
 	color:#aaa;
 }
+
+@media(max-width:960px){
+	#container{
+		width:80%;
+	}
+
+	h1{
+		font-size:33px;
+	}
+
+	#sub-1,#sub-2{
+		float:none;
+		width:100%;
+	}
+
+	.points li{
+		background:#eee;
+		padding:8px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:10px;
+	}
+
+	.points img{
+		margin-top:7px;
+	}
+
+	#testimonial img{
+		float:none;
+		margin:auto;
+		display:block;
+		margin-bottom:20px;
+	}
+}
+
+@media(max-width:568px){
+	h1{
+		font-size:22px;
+	}
+}
